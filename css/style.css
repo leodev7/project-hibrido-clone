@@ -73,6 +73,9 @@ nav .content {
   margin: 0 auto;
   width: 1340px;
 }
+nav .content .nav-toggle {
+  display: none;
+}
 nav .content .logo {
   z-index: 1;
 }
@@ -187,6 +190,7 @@ nav .content .side .carrinho a .quantidade:hover {
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 30px;
 }
 .qualidades .content .apelos .each .icon {
   margin-bottom: 15px;
@@ -248,7 +252,7 @@ nav .content .side .carrinho a .quantidade:hover {
   text-align: center;
 }
 .cards .content ul li .categorys-content p {
-  font-family: 'montserrat';
+  font-family: "montserrat";
   color: white;
   text-align: center;
   font-weight: 500;
@@ -266,7 +270,7 @@ nav .content .side .carrinho a .quantidade:hover {
   transition: 0.3s;
 }
 .cards .content ul li .categorys-content .category-button span {
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-weight: 500;
 }
 .cards .content ul li .categorys-content .color1 span {
@@ -357,7 +361,7 @@ nav .content .side .carrinho a .quantidade:hover {
   width: 70px;
 }
 .veja-como .content .veja-como-general .titulo h3 {
-  font-family: 'mulish';
+  font-family: "mulish";
   font-size: 45px;
   margin-top: 0px;
   font-weight: 600;
@@ -387,7 +391,7 @@ nav .content .side .carrinho a .quantidade:hover {
   justify-content: center;
 }
 .veja-como .content .veja-como-general .passos .passo-text h4 {
-  font-family: 'mulish';
+  font-family: "mulish";
   font-weight: 600;
   color: #c63131;
   font-size: 40px;
@@ -395,14 +399,14 @@ nav .content .side .carrinho a .quantidade:hover {
   margin-top: 0px;
 }
 .veja-como .content .veja-como-general .passos .passo-text h3 {
-  font-family: 'mulish';
+  font-family: "mulish";
   font-weight: 600;
   color: #c63131;
   font-size: 27px;
   margin-top: 0px;
 }
 .veja-como .content .veja-como-general .passos .passo-text p {
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-weight: 300;
   color: #c63131;
   font-size: 14px;
@@ -425,12 +429,12 @@ nav .content .side .carrinho a .quantidade:hover {
 .marcas .content .titulo h3 {
   max-width: 403px;
   margin: 35px auto;
-  font-family: 'mulish';
+  font-family: "mulish";
   font-weight: 800;
   color: #c63131;
   font-size: 45px;
   text-align: center;
-  letter-spacing: .9px;
+  letter-spacing: 0.9px;
 }
 .marcas .content img {
   border-radius: 90%;
@@ -444,7 +448,7 @@ nav .content .side .carrinho a .quantidade:hover {
   float: none;
   width: 100%;
   background-color: #c63131;
-  background-image: url('https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/fundo-news.png') !important;
+  background-image: url("https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/fundo-news.png") !important;
   padding: 16px 0;
   display: flex;
   justify-content: center;
@@ -479,7 +483,7 @@ nav .content .side .carrinho a .quantidade:hover {
   flex-flow: row wrap;
 }
 .rodape .content .form .newsletter-footer .newsletter .control input {
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-weight: 300;
   height: 50px;
   margin-left: 10px;
@@ -496,7 +500,7 @@ nav .content .side .carrinho a .quantidade:hover {
 }
 .rodape .content .form .newsletter-footer .actions button {
   height: 50px;
-  background-color: #FFF;
+  background-color: #fff;
   border: 2px solid #fff;
   border-radius: 5px;
   transition: 0.3s;
@@ -506,7 +510,7 @@ nav .content .side .carrinho a .quantidade:hover {
   background-color: #c63131;
 }
 .rodape .content .form .newsletter-footer .actions button:hover span {
-  color: #ffffff !important;
+  color: #fff !important;
 }
 .rodape .content .form .newsletter-footer .actions .primary {
   font-size: 14px;
@@ -532,7 +536,7 @@ nav .content .side .carrinho a .quantidade:hover {
   max-width: 530px;
 }
 .rodape .content .label span {
-  font-family: 'mulish';
+  font-family: "mulish";
   font-weight: 600;
   color: #fff;
   font-size: 32px;
@@ -555,7 +559,7 @@ nav .content .side .carrinho a .quantidade:hover {
   padding-bottom: 15px;
 }
 .widget .formas-selo .content .formas-selo-container h2 {
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-weight: 300;
   line-height: 1;
   margin-top: 0;
@@ -594,7 +598,7 @@ nav .content .side .carrinho a .quantidade:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0;
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-weight: 300;
   letter-spacing: 0.09px;
 }
@@ -626,7 +630,7 @@ nav .content .side .carrinho a .quantidade:hover {
 }
 .footer .content .footer-container ul li ol li .telefone-footer {
   color: #c63131;
-  font-family: 'mulish';
+  font-family: "mulish";
   font-size: 27px;
   font-weight: 700;
   margin-top: -10px;
@@ -664,7 +668,7 @@ nav .content .side .carrinho a .quantidade:hover {
 }
 .copyright .content span {
   color: #9b9b9b;
-  font-family: 'montserrat';
+  font-family: "montserrat";
   line-height: 20px;
   letter-spacing: 0.09px;
   font-weight: 300;
@@ -682,10 +686,10 @@ nav .content .side .carrinho a .quantidade:hover {
 .copyright .content .hibrido a {
   color: #9b9b9b;
   right: 0;
-  background: url('https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/logo_hibrido.png') no-repeat right center;
+  background: url("https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/logo_hibrido.png") no-repeat right center;
   padding-right: 20px;
-  opacity: .4;
-  transition: .3s;
+  opacity: 0.4;
+  transition: 0.3s;
 }
 .copyright .content .hibrido a:hover {
   opacity: 1;
@@ -731,9 +735,9 @@ nav .content .side .carrinho a .quantidade:hover {
   height: 26px;
 }
 [data-slide-nav] > button.active::after {
-  content: '';
+  content: "";
   display: block;
-  font-family: 'Admin Icons';
+  font-family: "Admin Icons";
   display: inline-block;
   position: absolute;
   text-align: center;
@@ -750,11 +754,11 @@ nav .content .side .carrinho a .quantidade:hover {
   color: #c63131;
   transition: 0.3s;
 }
-.tippy-box[data-theme~='tomato'] {
+.tippy-box[data-theme~="tomato"] {
   background-color: rgba(255, 220, 221, 0.9);
   border-radius: 5px;
   width: 180px;
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-weight: 300;
   color: #c63131;
   font-size: 12px;
@@ -828,6 +832,48 @@ nav .content .side .carrinho a .quantidade:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  nav .content {
+    justify-content: space-between;
+    display: flex;
+    padding: 0 10px;
+  }
+  nav .content:before {
+    font-size: 30px;
+    color: white;
+  }
+  nav .content .nav-toggle {
+    cursor: pointer;
+    display: inline-block;
+    left: 0;
+    position: initial;
+    top: 0;
+    margin-right: 25px;
+  }
+  nav .content .nav-toggle:before {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 28px;
+    line-height: inherit;
+    color: white;
+    content: "\e609";
+    font-family: "luma-icons";
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: normal;
+    overflow: hidden;
+    text-align: center;
+  }
+  nav .content .logo {
+    margin-top: 0px !important;
+    width: 50%;
+  }
+  nav .content .nav,
+  nav .content .side ul {
+    display: none;
+  }
+  [data-slide-nav] {
+    margin-left: -150px;
+  }
   .rodape .content .newsletter-footer {
     flex-flow: row wrap;
     justify-content: center;
@@ -876,4 +922,55 @@ nav .content .side .carrinho a .quantidade:hover {
     margin: 0;
     padding: 0 45px 15px 45px;
   }
+}
+.menu-mobile {
+  position: fixed;
+  display: flex;
+  z-index: 9999;
+  top: 0;
+  left: -100%;
+  background: #fafaf9;
+  flex-direction: column;
+  max-width: 400px;
+  width: 80%;
+  height: 100%;
+  transition: 0.3s;
+}
+.menu-mobile .menu-mobile-links {
+  display: flex;
+  background-color: #c63131;
+  padding: 27px 0;
+}
+.menu-mobile .menu-mobile-links li {
+  list-style-type: none;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+.menu-mobile .menu-mobile-links li:first-child a {
+  padding-inline-start: 40px;
+}
+.menu-mobile .menu-mobile-links li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  font-family: "montserrat";
+  text-transform: uppercase;
+}
+.menu-mobile .menu-mobile-list {
+  list-style-type: none;
+  padding: 25px 28px;
+}
+.menu-mobile .menu-mobile-list li {
+  margin-bottom: 20px;
+}
+.menu-mobile .menu-mobile-list li a {
+  color: #c63131;
+  font-family: "montserrat";
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.active {
+  left: 0 !important;
 }
