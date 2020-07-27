@@ -7,7 +7,8 @@ new SimpleSlide({
 });
 
 tippy(".myButton", {
-  content: "Total segurança para o seu evento em todos os momentos, da entrada a consumação.",
+  content:
+    "Total segurança para o seu evento em todos os momentos, da entrada a consumação.",
   theme: "tomato",
   inlinePositioning: true,
 });
@@ -22,23 +23,15 @@ var glider = new Glider(document.getElementById("glider"), {
   },
 });
 
-const tabLink = document.querySelectorAll('.nav-toggle');
-const tabTeste = document.querySelectorAll('.menu-mobile');
-
-if (tabLink.length) {
-  // tabLink[0].classList.add('ativoLink');
-
-  function activeTab(index) {
-    tabTeste.forEach((section) => {
-      section.classList.remove('active');
-    })
-
-    tabTeste[index].classList.add('active');  
-  }
-
-  tabLink.forEach((itemMenu, index) => {
-    itemMenu.addEventListener('click', () => {
-      activeTab(index);
-    })
-  })
+function iniciaMenu(menuId) {
+  const menu = document.getElementById(menuId);
+  menu.classList.add("active");
+  menu.addEventListener('click', (event) => {
+    if(event.target.id == 'fechar'){
+      menu.classList.remove('active')
+    }
+  });
 }
+
+const tabLink = document.querySelector(".nav-toggle");
+tabLink.addEventListener("click", () => iniciaMenu("menu"));

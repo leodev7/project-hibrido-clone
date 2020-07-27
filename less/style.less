@@ -929,30 +929,6 @@ nav {
 @media only screen and (max-width: 1024px) {
   nav {
     .content {
-      display: grid;
-
-      .logo {
-        justify-self: center;
-      }
-
-      .nav {
-        justify-self: center;
-      }
-    }
-  }
-
-  .veja-como .content .veja-como-general {
-    border-radius: 40px;
-
-    .passos {
-      justify-content: center;
-    }
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  nav {
-    .content {
       justify-content: space-between;
       display: flex;
       padding: 0 10px;
@@ -997,6 +973,16 @@ nav {
     margin-left: -150px;
   }
 
+  .veja-como .content .veja-como-general {
+    border-radius: 40px;
+
+    .passos {
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .rodape {
     .content {
       .newsletter-footer {
@@ -1087,6 +1073,7 @@ nav {
     display: flex;
     background-color: #c63131;
     padding: 27px 0;
+    flex-wrap: wrap;
 
     li {
       list-style-type: none;
@@ -1096,6 +1083,23 @@ nav {
 
       &:first-child a {
         padding-inline-start: 40px;
+      }
+
+      &:last-child a {
+        position: absolute;
+        top: 2px;
+        right: -20px;
+        border: 2px solid white;
+        border-radius: 50%;
+        padding: 10px 15px;
+        background-color: white;
+        color: #c63131;
+
+        &:hover{
+          transition: 0.3s;
+          background-color: transparent;
+          color: white;
+        }
       }
 
       a {

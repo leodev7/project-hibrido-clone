@@ -48,10 +48,11 @@
         </div>
     </nav>
 
-    <div class="menu-mobile">
+    <div class="menu-mobile" id="menu">
         <ul class="menu-mobile-links">
             <li><a href="#">Entrar</a></li>
             <li><a href="#">Meus Pedidos</a></li>
+            <li><a href="#" id="fechar">x</a></li>
         </ul>
         <ul class="menu-mobile-list">
             <li><a href="#">Pulseiras</a></li>
@@ -181,8 +182,7 @@
                         <h3>Veja como é fácil</h3>
                         <p>Crie o material que seu evento precisa com<br>apenas alguns toques e aproveite a festa.</p>
                     </div>
-                    <div class="passos mod1 passo-1">
-                        <!-- VERIFICAR E REMOVER MOD1 E PASSO-1 e PASSO-3 -->
+                    <div class="passos">
                         <div class="passo-img">
                             <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/passo-1.svg" alt="Passo 1">
                         </div>
@@ -193,7 +193,7 @@
                                 produto que deseja nessa etapa.</p>
                         </div>
                     </div>
-                    <div class="passos mod2 passo-2">
+                    <div class="passos mod2">
                         <div class="passo-text">
                             <h4>02.</h4>
                             <h3>Aprove</h3>
@@ -204,7 +204,7 @@
                             <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/passo-2.svg" alt="Passo 2">
                         </div>
                     </div>
-                    <div class="passos mod1 passo-3">
+                    <div class="passos">
                         <div class="passo-img">
                             <img src="https://www.printset.com.br/static/frontend/Hibrido/default/pt_BR/images/svg/passo-3.svg" alt="Passo 3">
                         </div>
@@ -254,7 +254,7 @@
     <footer>
         <div class="rodape">
             <div class="content">
-                <form class="form subscribe" novalidate="novalidate" action="https://www.printset.com.br/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+                <form class="form" action="#" method="post" id="newsletter-validate-detail">
                     <label class="label" for="newsletter"><span>Cadastre-se e receba nossas novidades</span></label>
                     <div class="newsletter-footer">
                         <div class="newsletter">
@@ -277,13 +277,13 @@
             <div class="formas-selo">
                 <div class="content">
                     <div class="formas-selo-container">
-                        <div class="seguranca-footer">
+                        <div>
                             <h2>Segurança</h2>
-                            <div class="selos"><img src="https://www.printset.com.br/media/wysiwyg/seguranca.png" alt="Selos de segurança"></div>
+                            <div><img src="https://www.printset.com.br/media/wysiwyg/seguranca.png" alt="Selos de segurança"></div>
                         </div>
-                        <div class="pagamento-footer">
+                        <div>
                             <h2>Pagamento</h2>
-                            <div class="formas"><img src="https://www.printset.com.br/media/wysiwyg/pagamento.png" alt="Formas de pagamento"></div>
+                            <div><img src="https://www.printset.com.br/media/wysiwyg/pagamento.png" alt="Formas de pagamento"></div>
                         </div>
                     </div>
                 </div>
